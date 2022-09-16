@@ -34,7 +34,8 @@ if exists('g:vscode')
 "  set g:EasyMotion_prompt = ""
 else
   Jetpack 'easymotion/vim-easymotion'
-  nmap f <Plug>(easymotion-bd-w)
+  nmap f <Plug>(easymotion-bd-f)
+  nmap w <Plug>(easymotion-bd-w)
 endif
 
 " Jetpack 'vim-denops/denops.vim'
