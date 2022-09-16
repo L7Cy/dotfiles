@@ -122,7 +122,7 @@ augroup END
 " let g:neoterm_autoinsert=1
 
 "airblade/vim-gitgutter
-set signcolumn=number
+set signcolumn=yes
 let g:gitgutter_map_keys = 0
 
 "----------------------------------------
